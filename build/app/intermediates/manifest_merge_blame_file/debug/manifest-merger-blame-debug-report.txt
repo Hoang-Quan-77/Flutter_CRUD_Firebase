@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uda.vuductn.test4"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\khangpd\Desktop\more\Flutter CRUD\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\khangpd\Desktop\more\Flutter CRUD\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+17    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\khangpd\.gradle\caches\transforms-3\4821fbe7ad40b09c971364dbffa859f3\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:12:5-79
+18-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\khangpd\.gradle\caches\transforms-3\4821fbe7ad40b09c971364dbffa859f3\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\88a5466767dedb6eab3e7210d0386083\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+19-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\88a5466767dedb6eab3e7210d0386083\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+20-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\88a5466767dedb6eab3e7210d0386083\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+20-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\88a5466767dedb6eab3e7210d0386083\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+22
+23    <application
+24        android:name="android.app.Application"
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.6.0] C:\Users\khangpd\.gradle\caches\transforms-3\76061366ef79e3bfd72e2c4cb3ecee6b\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+28        android:label="test4" >
+29        <activity
+30            android:name="com.uda.vuductn.test4.MainActivity"
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32            android:exported="true"
+33            android:hardwareAccelerated="true"
+34            android:launchMode="singleTop"
+35            android:theme="@style/LaunchTheme"
+36            android:windowSoftInputMode="adjustResize" >
+37
+38            <!--
+39                 Specifies an Android theme to apply to this Activity as soon as
+40                 the Android process has started. This theme is visible to the user
+41                 while the Flutter UI initializes. After that, this theme continues
+42                 to determine the Window background behind the Flutter UI.
+43            -->
+44            <meta-data
+45                android:name="io.flutter.embedding.android.NormalTheme"
+46                android:resource="@style/NormalTheme" />
+47
+48            <intent-filter>
+49                <action android:name="android.intent.action.MAIN" />
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+52            </intent-filter>
+53        </activity>
+54        <!--
+55             Don't delete the meta-data below.
+56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+57        -->
+58        <meta-data
+59            android:name="flutterEmbedding"
+60            android:value="2" />
+61
+62        <service
+62-->[:firebase_storage] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+63            android:name="com.google.firebase.components.ComponentDiscoveryService"
+63-->[:firebase_storage] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+64            android:directBootAware="true"
+64-->[com.google.firebase:firebase-common:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\688f42215c8175f47ccb01e725254fb2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+65            android:exported="false" >
+65-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\7db6752cb5168fa4e7aa898e81407290\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:10:13-37
+66            <meta-data
+66-->[:firebase_storage] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+67-->[:firebase_storage] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[:firebase_storage] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+69            <meta-data
+69-->[:cloud_firestore] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+70-->[:cloud_firestore] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:cloud_firestore] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+72            <meta-data
+72-->[:firebase_core] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+73-->[:firebase_core] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:firebase_core] C:\Users\khangpd\Desktop\more\Flutter CRUD\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\7db6752cb5168fa4e7aa898e81407290\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+76                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+76-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\7db6752cb5168fa4e7aa898e81407290\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\7db6752cb5168fa4e7aa898e81407290\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\5fe4c5eaa0ea15f897e71d145be519b1\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:14:13-16:85
+79                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+79-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\5fe4c5eaa0ea15f897e71d145be519b1\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:15:17-113
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\5fe4c5eaa0ea15f897e71d145be519b1\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:16:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\khangpd\.gradle\caches\transforms-3\4821fbe7ad40b09c971364dbffa859f3\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:19:13-21:85
+82                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+82-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\khangpd\.gradle\caches\transforms-3\4821fbe7ad40b09c971364dbffa859f3\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:20:17-111
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\khangpd\.gradle\caches\transforms-3\4821fbe7ad40b09c971364dbffa859f3\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:21:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\khangpd\.gradle\caches\transforms-3\ee38e48850f64edc2242557307632cd5\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+85                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+85-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\khangpd\.gradle\caches\transforms-3\ee38e48850f64edc2242557307632cd5\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\khangpd\.gradle\caches\transforms-3\ee38e48850f64edc2242557307632cd5\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+87            <meta-data
+87-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\88a5466767dedb6eab3e7210d0386083\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+88-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\88a5466767dedb6eab3e7210d0386083\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\88a5466767dedb6eab3e7210d0386083\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\khangpd\.gradle\caches\transforms-3\b963b995334897596ed55bb80ca1819f\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:17:13-19:85
+91                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+91-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\khangpd\.gradle\caches\transforms-3\b963b995334897596ed55bb80ca1819f\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:18:17-127
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\khangpd\.gradle\caches\transforms-3\b963b995334897596ed55bb80ca1819f\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:19:17-82
+93        </service>
+94
+95        <uses-library
+95-->[androidx.window:window:1.0.0-beta04] C:\Users\khangpd\.gradle\caches\transforms-3\925f0102ea9ed7d8d2a39f7625f02fc6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+96            android:name="androidx.window.extensions"
+96-->[androidx.window:window:1.0.0-beta04] C:\Users\khangpd\.gradle\caches\transforms-3\925f0102ea9ed7d8d2a39f7625f02fc6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+97            android:required="false" />
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\khangpd\.gradle\caches\transforms-3\925f0102ea9ed7d8d2a39f7625f02fc6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+98        <uses-library
+98-->[androidx.window:window:1.0.0-beta04] C:\Users\khangpd\.gradle\caches\transforms-3\925f0102ea9ed7d8d2a39f7625f02fc6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+99            android:name="androidx.window.sidecar"
+99-->[androidx.window:window:1.0.0-beta04] C:\Users\khangpd\.gradle\caches\transforms-3\925f0102ea9ed7d8d2a39f7625f02fc6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+100            android:required="false" />
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\khangpd\.gradle\caches\transforms-3\925f0102ea9ed7d8d2a39f7625f02fc6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\688f42215c8175f47ccb01e725254fb2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\688f42215c8175f47ccb01e725254fb2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+104            android:authorities="com.uda.vuductn.test4.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\688f42215c8175f47ccb01e725254fb2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\688f42215c8175f47ccb01e725254fb2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\688f42215c8175f47ccb01e725254fb2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:20.3.0] C:\Users\khangpd\.gradle\caches\transforms-3\688f42215c8175f47ccb01e725254fb2\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\khangpd\.gradle\caches\transforms-3\a99f7b98542ba672052b980f8489da21\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\khangpd\.gradle\caches\transforms-3\a99f7b98542ba672052b980f8489da21\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\khangpd\.gradle\caches\transforms-3\a99f7b98542ba672052b980f8489da21\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\khangpd\.gradle\caches\transforms-3\a99f7b98542ba672052b980f8489da21\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+113
+114        <receiver
+114-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+115            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+115-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+116            android:enabled="true"
+116-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+117            android:exported="false" >
+117-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+118        </receiver>
+119
+120        <service
+120-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+121            android:name="com.google.android.gms.measurement.AppMeasurementService"
+121-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+123            android:exported="false" />
+123-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+124        <service
+124-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+125            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+125-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" />
+128-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\khangpd\.gradle\caches\transforms-3\f7f1bb70afd6b146e1cdd6c91cee8f9f\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+129
+130        <meta-data
+130-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\khangpd\.gradle\caches\transforms-3\a93cd91304c86f14c84780c3aa0ae451\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+131            android:name="com.google.android.gms.version"
+131-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\khangpd\.gradle\caches\transforms-3\a93cd91304c86f14c84780c3aa0ae451\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+132            android:value="@integer/google_play_services_version" />
+132-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\khangpd\.gradle\caches\transforms-3\a93cd91304c86f14c84780c3aa0ae451\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+133    </application>
+134
+135</manifest>
